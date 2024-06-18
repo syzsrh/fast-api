@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  webapp:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - .:/app
+    command: ["fastapi", "run", "app/main.py", "--port", "80"]
