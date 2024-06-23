@@ -26,7 +26,7 @@ To utilize the OpenAI services in this project, you must provide your own API ke
 
 ### Locally
 
-1. (Optional) [Set](https://python.land/virtual-environments/virtualenv) up and activate your virtual environment.
+1. (Optional) [Set up](https://python.land/virtual-environments/virtualenv) and activate your virtual environment.
 
 2. Run the following command to install necessary packages: `pip install -r requirements.txt`
 
